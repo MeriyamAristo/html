@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Radio Input</title>
+</head>
+<body>
+<h1>Contact Form</h1>
+<form >
+	<p>
+		<label for="username">Username</label><br>
+	<input type="text" name="Username" id="username"></p>
+	<p>
+	<label for="Password">Password</label><br>
+	<input type="Password" name="Password" minlength="6" id="Password"></p>
+	<p>
+		Gender<br>
+		<!-- checked attribute for defaultly selected one option when user avoid/ignore it
+		    value attribute select dafault value of one's field-->
+		<input type="Radio" name="gender" value="male" id="male" checked> <label for="male">male</label>
+		<input type="Radio" name="gender" value="female" id="female"><label for="female">female</label>
+		<input type="Radio" name="gender" value="others" id="others"><label for="others">others</label>
+		</p>
+		<p>
+			
+	<input type="submit" name="submit-button" value="send">
+	
+		</p>
+</form>
+</body>
+</html>
